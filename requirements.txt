@@ -2,9 +2,17 @@
 #newspaper3k
 #transformers
 #lxml
+#streamlit==1.29.0
+#newspaper3k==0.2.8
+#transformers==4.36.2
+#lxml==4.9.3
+#beautifulsoup4==4.12.0  # Backup for newspaper3k
+#requests==2.31.0         # Backup for newspaper3k
+
 streamlit==1.29.0
 newspaper3k==0.2.8
 transformers==4.36.2
 lxml==4.9.3
-beautifulsoup4==4.12.0  # Backup for newspaper3k
-requests==2.31.0         # Backup for newspaper3k
+beautifulsoup4==4.12.0
+requests==2.31.0
+python-dotenv==1.0.0
