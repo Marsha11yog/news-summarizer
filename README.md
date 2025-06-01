@@ -8,10 +8,5 @@ A GenAI - powered Streamlit web app that summarizes any online news article usin
 - Fallback scraping in case of structured content failures
 
 ## Result:
-![screenshot](summarizer_result/result.png)
+![App Screenshot](summarizer_result/result.png)
 
-## 🚀 Run It Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
