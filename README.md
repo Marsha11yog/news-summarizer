@@ -8,7 +8,7 @@ A GenAI - powered Streamlit web app that summarizes any online news article usin
 - Fallback scraping in case of structured content failures
 
 ## Result:
-![App Screenshot](summarizer_result/result.png)
+![App Screenshot](summarizer_result/"C:\Users\Yogesh\Desktop\VS Code\2025\news_summarizer\summarizer_result\result.png")
 
 
 
