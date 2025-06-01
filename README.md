@@ -10,3 +10,5 @@ A GenAI - powered Streamlit web app that summarizes any online news article usin
 ## Result:
 ![App Screenshot](summarizer_result/result.png)
 
+
+
