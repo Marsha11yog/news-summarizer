@@ -1,18 +1,12 @@
-#streamlit
-#newspaper3k
-#transformers
-#lxml
-#streamlit==1.29.0
-#newspaper3k==0.2.8
-#transformers==4.36.2
-#lxml==4.9.3
-#beautifulsoup4==4.12.0  # Backup for newspaper3k
-#requests==2.31.0         # Backup for newspaper3k
-
+# App framework
 streamlit==1.29.0
+
+# Article extraction
 newspaper3k==0.2.8
-transformers==4.36.2
-lxml==4.9.3
+lxml<5.0.0  # Use <5.0.0 to avoid breaking newspaper3k
+readability-lxml==0.8.1
 beautifulsoup4==4.12.0
 requests==2.31.0
-python-dotenv==1.0.0
+
+# NLP summarization
+transformers==4.36.2
